@@ -1,0 +1,39 @@
+{
+    "statusCode": 200,
+    "data": {
+        "tenantDatabaseList": [
+            {
+                "tenantId": "1001",
+                "databases": [
+                    {
+                        "name": "test01",
+                        "tableCount": 1,
+                        "dbSize": 1,
+                        "ownerName": "test01@test01",
+                        "approvalTime": 1001
+                    }
+                ]
+            },
+            {
+                "tenantId": "1002",
+                "databases": [
+                    {
+                        "name": "test02",
+                        "tableCount": 2,
+                        "dbSize": 2,
+                        "ownerName": "test02@test02",
+                        "approvalTime": 1002
+                    },
+                    {
+                        "name": "test03",
+                        "tableCount": 3,
+                        "dbSize": 3,
+                        "ownerName": "test03@test03",
+                        "approvalTime": 1003
+                    }
+                ]
+            }
+        ]
+    },
+    "msgDesc": "Success"
+}
