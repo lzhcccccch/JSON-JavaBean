@@ -35,7 +35,7 @@
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>fastjson</artifactId>
-			<version>1.2.8</version>
+			<version>1.2.25</version>
 		</dependency>
 		
 		<!--可方便打印日志和getter和setter-->
